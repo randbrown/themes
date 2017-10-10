@@ -5,10 +5,9 @@ https://github.com/alphapapa/solarized-everything-css
 And then I applied ot to a list of known domains.
 Then I added a "section" for google calendars manually to fix some UI issues
 */
-
-@-moz-document domain("google.com"), domain("github.com"), domain("gitlab.com"), domain("wikipedia.org"), domain("stackoverflow.com"), domain("reddit.com"), domain("steelguitarforum.com"), domain("chiefdelphi.com"), domain("f150forum.com"), domain("craigslist.org") {
+@-moz-document url-prefix("chrome-extension:"), domain("google.com"), domain("github.com"), domain("gitlab.com"), domain("wikipedia.org"), domain("stackoverflow.com"), domain("reddit.com"), domain("chiefdelphi.com"), domain("f150forum.com"), domain("craigslist.org"), domain("serverfault.com"), domain("twitter.com") {
   * {
-    border-color: #657b83 !important;
+    border-color: #839496 !important;
   }
   a {
     color: #268bd2 !important;
@@ -18,25 +17,27 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   body {
     background-color: #002b36 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   html {
     background-color: #002b36 !important;
   }
-  input, textarea {
+  input,
+  textarea {
     background-color: #073642 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
-  blockquote, pre {
+  blockquote,
+  pre {
     background-color: #073642 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .post-actions {
     background-color: #073642 !important;
   }
   .textarea-wrapper {
     background-color: #002b36 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .search--adv {
     background-color: #073642 !important;
@@ -46,10 +47,10 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .search__autocomplete > .acp-wrap > .acp--highlight {
     background-color: #073642 !important;
-    color: #eee8d5 !important;
+    color: #073642 !important;
   }
   .search__autocomplete > .acp-wrap strong {
-    color: #eee8d5 !important;
+    color: #073642 !important;
   }
   .site-wrapper > #header_wrapper {
     background-color: #002b36 !important;
@@ -62,7 +63,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .zci {
     background-color: #073642 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .tile--info {
     background-color: #002b36 !important;
@@ -72,26 +73,26 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .tile--c {
     background-color: #586e75 !important;
-    color: #eee8d5 !important;
+    color: #073642 !important;
   }
   .module__text {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .about-info-box__heading {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .result.highlight {
     background-color: #073642 !important;
   }
   .result__snippet {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .result__snippet b {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .btn--top {
     background-color: #073642 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .btn--top:hover {
     background-color: #586e75 !important;
@@ -103,67 +104,67 @@ Then I added a "section" for google calendars manually to fix some UI issues
     border-color: #073642 !important;
   }
   .news .alert .pull-info {
-    background-color: #083c4a !important;
+    background-color: #ebe4cf !important;
   }
   a.link-gray-dark {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .text-gray-dark {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .bg-white {
     background-color: #002b36 !important;
   }
   .border {
-    border-color: #657b83 !important;
+    border-color: #839496 !important;
   }
   .breadcrumb .repo-root.js-repo-root a {
     color: #268bd2 !important;
   }
   .breadcrumb strong.final-path {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   button.ajax-pagination-btn {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   button.ajax-pagination-btn:hover {
     background-color: #586e75 !important;
   }
   .comment-reactions .btn-link {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .comment-reactions .user-has-reacted {
     background-color: #073642 !important;
   }
   .text-gray-dark {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .contrib-number {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .counter {
-    background-color: #094352 !important;
-    color: #93a1a1 !important;
+    background-color: #e9e1c8 !important;
+    color: #586e75 !important;
   }
   .diffstat-bar {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .file-header {
     background-color: #073642 !important;
   }
   .file-history-tease .participation {
     background-color: #002b36 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .file-history-tease .participation .quickstat strong {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .file-history-tease .participation a {
     color: #586e75 !important;
   }
   .file-history-tease .author a {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .file-history-tease-header {
     background-color: #073642 !important;
@@ -172,48 +173,52 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #586e75 !important;
   }
   .file-wrap {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .file-wrap * {
     background-color: transparent !important;
   }
   .filter-bar {
-    background-color: #083c4a !important;
+    background-color: #ebe4cf !important;
   }
-  a.filter-item, .filter-item {
-    color: #839496 !important;
+  a.filter-item,
+  .filter-item {
+    color: #657b83 !important;
   }
-  a.filter-item.selected, .filter-item.selected {
+  a.filter-item.selected,
+  .filter-item.selected {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
-  a.filter-item:hover, .filter-item:hover {
+  a.filter-item:hover,
+  .filter-item:hover {
     background-color: #586e75 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .flash {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .gh-header-number {
     color: #586e75 !important;
   }
-  .ellipsis-expander, .hidden-text-expander a {
+  .ellipsis-expander,
+  .hidden-text-expander a {
     background-color: #073642 !important;
   }
   .issue-meta {
     color: #586e75 !important;
   }
   .issues-listing a {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .muted-link {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .new-user-avatar-cta {
     background-color: #073642 !important;
     border-color: #586e75 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .overall-summary {
     border-color: #586e75 !important;
@@ -230,26 +235,26 @@ Then I added a "section" for google calendars manually to fix some UI issues
   .social-count {
     background-color: #073642 !important;
     border-color: #586e75 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .scope-badge {
     background-color: #586e75 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .stats-switcher-wrapper {
     background-color: #002b36 !important;
   }
   .stats-switcher-wrapper .numbers-summary li a {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .table-list-header-toggle .btn-link {
     color: #586e75 !important;
   }
   .table-list-header-toggle .btn-link.selected {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .text-emphasized {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .text-diff-added {
     color: #859900 !important;
@@ -257,40 +262,41 @@ Then I added a "section" for google calendars manually to fix some UI issues
   .text-diff-deleted {
     color: #dc322f !important;
   }
-  .avatar, .timeline-comment-avatar {
-    filter: opacity(50%);
+  .avatar,
+  .timeline-comment-avatar {
+    filter: opacity(90%);
   }
   .blob-code {
     background-color: #002b36 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .blob-code-addition {
-    background-color: rgba(232, 255, 77, 0.1) !important;
+    background-color: rgba(232,255,77,0.1) !important;
   }
   .blob-code-addition .x {
     background-color: #647300 !important;
-    color: #c1cacb !important;
+    color: #b1bec2 !important;
   }
   .blob-code-deletion {
-    background-color: rgba(220, 50, 47, 0.2) !important;
+    background-color: rgba(220,50,47,0.2) !important;
   }
   .blob-code-deletion .x {
     background-color: #721513 !important;
-    color: #c1cacb !important;
+    color: #b1bec2 !important;
   }
   .blob-code-hunk {
     background-color: #073642 !important;
     border-color: #586e75 !important;
   }
   .blob-code-inner {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .blob-num {
     background-color: #002b36 !important;
     color: #586e75 !important;
   }
   .file {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .form-control {
     background-color: #073642 !important;
@@ -319,13 +325,14 @@ Then I added a "section" for google calendars manually to fix some UI issues
     color: #2aa198 !important;
   }
   .pl-smi {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .pl-v {
     color: #859900 !important;
     font-weight: bold !important;
   }
-  .border-bottom, .border-top {
+  .border-bottom,
+  .border-top {
     border-color: #073642 !important;
   }
   .boxed-group * {
@@ -333,11 +340,11 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .boxed-group article {
     background-color: #002b36 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .boxed-group > h3 {
-    background-color: #094352 !important;
-    color: #93a1a1 !important;
+    background-color: #e9e1c8 !important;
+    color: #586e75 !important;
   }
   .boxed-group-inner {
     background-color: #002b36 !important;
@@ -352,7 +359,9 @@ Then I added a "section" for google calendars manually to fix some UI issues
   .branch-action-state-clean .branch-action-icon {
     background-color: #859900 !important;
   }
-  .branch-action-state-dirty .branch-action-icon, .branch-action-state-unstable .branch-action-icon, .branch-action-state-unknown .branch-action-icon {
+  .branch-action-state-dirty .branch-action-icon,
+  .branch-action-state-unstable .branch-action-icon,
+  .branch-action-state-unknown .branch-action-icon {
     background-color: #b58900 !important;
     color: #fff !important;
   }
@@ -361,39 +370,45 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #073642 !important;
   }
   .build-status-item {
-    background-color: #094352 !important;
-    color: #93a1a1 !important;
+    background-color: #e9e1c8 !important;
+    color: #586e75 !important;
   }
   .build-status-item .build-status-details {
     color: #268bd2 !important;
   }
   .capped-card h3 {
-    background-color: #094352 !important;
+    background-color: #e9e1c8 !important;
   }
   .capped-card h3 a {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .capped-card-content {
     background-color: #002b36 !important;
   }
   .capped-list th {
-    background-color: #083c4a !important;
-    color: #93a1a1 !important;
+    background-color: #ebe4cf !important;
+    color: #586e75 !important;
   }
   .capped-list tr:nth-child(2n) {
     background-color: #073642 !important;
   }
-  .commit, .commit-meta, .commit-icon .octicon, .commit-group-title .octicon-git-commit {
+  .commit,
+  .commit-meta,
+  .commit-icon .octicon,
+  .commit-group-title .octicon-git-commit {
     background-color: #002b36 !important;
   }
-  .commit *, .commit-meta *, .commit-icon .octicon *, .commit-group-title .octicon-git-commit * {
+  .commit *,
+  .commit-meta *,
+  .commit-icon .octicon *,
+  .commit-group-title .octicon-git-commit * {
     border-color: #586e75 !important;
   }
   .commit-author {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .commit-author-section {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .commit-meta {
     color: #586e75 !important;
@@ -402,36 +417,46 @@ Then I added a "section" for google calendars manually to fix some UI issues
     color: #586e75 !important;
   }
   .commit-meta .sha-block .sha {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
-  .commit-ref, code.commit-sha {
+  .commit-ref,
+  code.commit-sha {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
-  .commit-ref .user, code.commit-sha .user {
+  .commit-ref .user,
+  code.commit-sha .user {
     color: #2aa198 !important;
   }
-  .commit-branches *, .commit-tease, .commit-title {
-    background-color: rgba(190, 255, 255, 0.2) !important;
+  .commit-branches *,
+  .commit-tease,
+  .commit-title {
+    background-color: rgba(0,0,142,0.2) !important;
     border: none !important;
   }
-  .commit-branches * *, .commit-tease *, .commit-title * {
-    color: #93a1a1 !important;
+  .commit-branches * *,
+  .commit-tease *,
+  .commit-title * {
+    color: #586e75 !important;
   }
   .commit-tease-contributors {
     background-color: #073642 !important;
   }
-  div.commit-branches, div.commit.full-commit p.commit-title, qul.branches-list {
+  div.commit-branches,
+  div.commit.full-commit p.commit-title,
+  qul.branches-list {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
-  div.commit-branches *, div.commit.full-commit p.commit-title *, qul.branches-list * {
+  div.commit-branches *,
+  div.commit.full-commit p.commit-title *,
+  qul.branches-list * {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .commit-meta {
     background-color: #073642 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .commits-listing:before {
     background-color: #073642 !important;
@@ -445,18 +470,18 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .commit-desc pre {
     background-color: transparent !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .commit.table-list-item {
     border-color: #073642 !important;
   }
   .commit-meta.commit-author-section {
     background-color: transparent !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .table-list-cell .commit-title {
     background-color: transparent !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .completeness-indicator-success {
     background-color: #859900 !important;
@@ -470,7 +495,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .blankslate {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .comment-form-head.tabnav {
     background-color: #002b36 !important;
@@ -480,17 +505,17 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .discussion-item-closed .discussion-item-icon {
     background-color: #dc322f !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .discussion-item-icon {
     background-color: #586e75 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .discussion-item-icon.octicon {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .discussion-timeline:before {
-    background-color: #657b83 !important;
+    background-color: #839496 !important;
   }
   .discussion-timeline-actions {
     background-color: #002b36 !important;
@@ -499,7 +524,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #073642 !important;
   }
   .new-discussion-timeline .closed-banner {
-    background-color: #657b83 !important;
+    background-color: #839496 !important;
     border-color: #002b36 !important;
   }
   .timeline-comment {
@@ -516,41 +541,42 @@ Then I added a "section" for google calendars manually to fix some UI issues
     fill: #b58900 !important;
   }
   .dropdown-divider {
-    background-color: #657b83 !important;
+    background-color: #839496 !important;
   }
   .dropdown-item {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .dropdown-item:hover {
     background-color: #586e75 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .dropdown-menu {
-    background-color: #094352 !important;
-    color: #93a1a1 !important;
-    border-color: #657b83 !important;
+    background-color: #e9e1c8 !important;
+    color: #586e75 !important;
+    border-color: #839496 !important;
   }
   .files * {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .files tbody tr {
     border-color: #073642 !important;
   }
   .files tbody tr:nth-child(even) {
-    background-color: #00323f !important;
+    background-color: #fcf3da !important;
   }
   .files tbody tr:nth-child(odd) {
     background-color: #002b36 !important;
   }
   .files tbody tr:hover * {
-    background-color: #094352 !important;
+    background-color: #e9e1c8 !important;
   }
   .btn {
-    background-image: linear-gradient(to bottom, #586e75, #073642) !important;
+    background-image: linear-gradient(to bottom, #073642, #586e75) !important;
     border-color: #586e75 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
-  .btn-primary, .issues-listing .btn-primary {
+  .btn-primary,
+  .issues-listing .btn-primary {
     background-color: #859900 !important;
     background-image: linear-gradient(#859900, #424d00) !important;
     color: #000 !important;
@@ -560,38 +586,42 @@ Then I added a "section" for google calendars manually to fix some UI issues
     color: #268bd2 !important;
   }
   .header {
-    background-color: #083c4a !important;
+    background-color: #ebe4cf !important;
     border-bottom-color: #586e75 !important;
   }
   .header a {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .lang {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
-  .reponav-item, .pagehead-tabs-item {
+  .reponav-item,
+  .pagehead-tabs-item {
     background-color: #073642 !important;
     border-color: transparent !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
-  .reponav-item:visited, .pagehead-tabs-item:visited {
-    color: #839496 !important;
+  .reponav-item:visited,
+  .pagehead-tabs-item:visited {
+    color: #657b83 !important;
   }
-  .reponav-item.selected, .pagehead-tabs-item.selected {
+  .reponav-item.selected,
+  .pagehead-tabs-item.selected {
     background-color: #002b36 !important;
-    border-color: #dc322f #094352 transparent !important;
+    border-color: #dc322f #e9e1c8 transparent !important;
   }
   .site-footer-links * {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .Box-row--focus-gray.navigation-focus {
-    background-color: #083c4a !important;
-    color: #93a1a1 !important;
+    background-color: #ebe4cf !important;
+    color: #586e75 !important;
   }
   .js-directory-link {
     color: #268bd2 !important;
   }
-  .js-site-search-form input, .js-chromeless-input-container {
+  .js-site-search-form input,
+  .js-chromeless-input-container {
     background-color: #002b36 !important;
     border-color: #586e75 !important;
   }
@@ -600,33 +630,39 @@ Then I added a "section" for google calendars manually to fix some UI issues
     filter: opacity(75%);
   }
   .notifications-list a {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .notifications-list li {
     background-color: #002b36 !important;
   }
-  .octicon, .octicon-repo {
-    color: #93a1a1 !important;
+  .octicon,
+  .octicon-repo {
+    color: #586e75 !important;
   }
-  .octicon.type-icon-state-closed, .octicon-repo.type-icon-state-closed {
-    color: rgba(255, 54, 43, 0.65) !important;
+  .octicon.type-icon-state-closed,
+  .octicon-repo.type-icon-state-closed {
+    color: rgba(202,0,0,0.65) !important;
   }
-  .octicon.type-icon-state-merged, .octicon-repo.type-icon-state-merged {
+  .octicon.type-icon-state-merged,
+  .octicon-repo.type-icon-state-merged {
     color: #6c71c4 !important;
   }
-  .octicon.type-icon-state-open, .octicon-repo.type-icon-state-open {
-    color: rgba(205, 212, 0, 0.65) !important;
+  .octicon.type-icon-state-open,
+  .octicon-repo.type-icon-state-open {
+    color: rgba(68,103,0,0.65) !important;
   }
-  .octicon-alert, .octicon-check {
+  .octicon-alert,
+  .octicon-check {
     color: #fff !important;
   }
   .octicon-x {
     color: #dc322f !important;
   }
   .octicon-clippy {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
-  .octicon-git-pull-request, .octicon-diff {
+  .octicon-git-pull-request,
+  .octicon-diff {
     color: #fff !important;
   }
   .octicon-markdown {
@@ -634,23 +670,23 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .orghead {
     background-color: #073642 !important;
-    border-color: #657b83 !important;
+    border-color: #839496 !important;
     border-bottom: 0px !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .org-name {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .pagehead.orghead {
     background-color: #073642 !important;
   }
   .outline-box-highlighted {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .pagination .current {
     background-color: #586e75 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .pagination .disabled {
     background-color: #073642 !important;
@@ -666,7 +702,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
   .pagination a {
     background-color: #073642 !important;
     border-color: #002b36 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .pagination a:hover {
     background-color: #586e75 !important;
@@ -676,7 +712,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #002b36 !important;
   }
   .merge-status-item {
-    background-color: #094352 !important;
+    background-color: #e9e1c8 !important;
   }
   .pr-toolbar {
     background-color: #002b36 !important;
@@ -690,54 +726,64 @@ Then I added a "section" for google calendars manually to fix some UI issues
   #readme .plain {
     background-color: #002b36 !important;
   }
-  .markdown-body, .markdown-body table * {
+  .markdown-body,
+  .markdown-body table * {
     background-color: #002b36 !important;
-    border-color: #657b83 !important;
-    color: #839496 !important;
+    border-color: #839496 !important;
+    color: #657b83 !important;
   }
-  .markdown-body a, .markdown-body table * a {
+  .markdown-body a,
+  .markdown-body table * a {
     color: #268bd2 !important;
   }
-  .markdown-body code, .markdown-body table * code, .markdown-body pre, .markdown-body table * pre {
+  .markdown-body code,
+  .markdown-body table * code,
+  .markdown-body pre,
+  .markdown-body table * pre {
     background-color: #073642 !important;
   }
-  .markdown-body hr, .markdown-body table * hr {
+  .markdown-body hr,
+  .markdown-body table * hr {
     background-color: #586e75 !important;
   }
-  .markdown-body img, .markdown-body table * img {
+  .markdown-body img,
+  .markdown-body table * img {
     background-color: #002b36 !important;
   }
   .repository-description {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .repository-meta .edit-repository-meta label {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .pagehead.repohead {
     background-color: #073642 !important;
   }
   .repository-content .RecentBranches {
     background-color: #073642 !important;
-    border-color: #657b83 !important;
+    border-color: #839496 !important;
   }
   .repohead-details-container a {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .select-menu-modal {
-    border-color: #839496 !important;
+    border-color: #657b83 !important;
   }
   .select-menu-modal * {
     background-color: #002b36 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
-  .select-menu-header, .select-menu-header * {
+  .select-menu-header,
+  .select-menu-header * {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
     text-shadow: none !important;
   }
-  .select-menu-item:hover *, .select-menu-item-icon:hover, .select-menu-item.navigation-focus {
+  .select-menu-item:hover *,
+  .select-menu-item-icon:hover,
+  .select-menu-item.navigation-focus {
     background-color: #586e75 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .select-menu-item.selected {
     background-color: #586e75 !important;
@@ -763,8 +809,8 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .sunken-menu-item.selected {
     background-color: #002b36 !important;
-    border-color: #094352 !important;
-    color: #93a1a1 !important;
+    border-color: #e9e1c8 !important;
+    color: #586e75 !important;
   }
   .sunken-menu-item.selected:after {
     background-color: #cb4b16 !important;
@@ -773,7 +819,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-image: linear-gradient(to right, #073642 70%, #002b36 100%) !important;
   }
   .state {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .state-closed {
     background-color: #dc322f !important;
@@ -782,13 +828,13 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #859900 !important;
   }
   .subnav-item {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .subnav-item:hover {
-    background-color: #083c4a !important;
+    background-color: #ebe4cf !important;
   }
   .subnav-item:visited {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .subnav-item.selected {
     background-color: #073642 !important;
@@ -802,21 +848,25 @@ Then I added a "section" for google calendars manually to fix some UI issues
   .right .tabnav-extra {
     color: #586e75 !important;
   }
-  a.tabnav-tab, .tabnav-tab {
+  a.tabnav-tab,
+  .tabnav-tab {
     border-color: transparent !important;
     color: #586e75 !important;
   }
-  a.tabnav-tab.selected, .tabnav-tab.selected {
+  a.tabnav-tab.selected,
+  .tabnav-tab.selected {
     background-color: #002b36 !important;
     background-image: linear-gradient(#073642, #002b36) !important;
-    border-color: #657b83 !important;
-    color: #93a1a1 !important;
+    border-color: #839496 !important;
+    color: #586e75 !important;
   }
-  .table-list tr, .table-list li {
+  .table-list tr,
+  .table-list li {
     background-color: #002b36 !important;
   }
-  .table-list tr:hover, .table-list li:hover {
-    background-color: #094352 !important;
+  .table-list tr:hover,
+  .table-list li:hover {
+    background-color: #e9e1c8 !important;
   }
   .table-list-header {
     background-color: #073642 !important;
@@ -838,41 +888,41 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .topic-tag.topic-tag-link {
     background-color: #073642 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .underline-nav-item {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .underline-nav-item.selected {
     border-bottom-color: #dc322f !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .user-profile-nav {
     background-color: #073642 !important;
-    border-color: #657b83 !important;
+    border-color: #839496 !important;
   }
   .user-profile-sticky-bar:after {
     background-color: #073642 !important;
-    border-color: #657b83 !important;
+    border-color: #839496 !important;
   }
   .graphs .area {
     fill: #859900;
   }
   .summary-stats li .num {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .viz {
-    background-color: #083c4a !important;
+    background-color: #ebe4cf !important;
   }
   .facebox-popup {
-    color: #839496 !important;
+    color: #657b83 !important;
     background-color: #002b36 !important;
   }
   .facebox-popup .octicon {
     color: #fff !important;
   }
   .facebox-popup .owner-select-target {
-    color: #839496 !important;
+    color: #657b83 !important;
     background-color: #073642 !important;
   }
   .facebox-popup .owner-select-target:hover {
@@ -884,10 +934,13 @@ Then I added a "section" for google calendars manually to fix some UI issues
   .sbib_a {
     background: linear-gradient(to bottom, #073642, #002b36) !important;
   }
-  input#lst-ib, #sb_ifc0.sbib_b, #gs_taif0 {
+  input#lst-ib,
+  #sb_ifc0.sbib_b,
+  #gs_taif0 {
     background: transparent !important;
   }
-  #lst-ib, .sbsb_a {
+  #lst-ib,
+  .sbsb_a {
     background-color: #002b36 !important;
   }
   .kpbb {
@@ -929,26 +982,29 @@ Then I added a "section" for google calendars manually to fix some UI issues
   table {
     background-color: #002b36 !important;
   }
-  #hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table, #hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table {
+  #hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table,
+  #hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > table {
     background-color: #cb4b16 !important;
   }
-  #hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) a, #hnmain > tbody:nth-child(1) > tr:nth-child(1) a {
+  #hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) a,
+  #hnmain > tbody:nth-child(1) > tr:nth-child(1) a {
     color: #000 !important;
   }
-  #hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2), #hnmain > tbody:nth-child(1) > tr:nth-child(2) {
+  #hnmain > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2),
+  #hnmain > tbody:nth-child(1) > tr:nth-child(2) {
     background-color: #002b36 !important;
   }
   #hnmain > tbody:nth-child(1) > tr:nth-child(2) {
     background-color: #002b36 !important;
   }
   .title a {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .title a:visited {
     color: #586e75 !important;
   }
   a.storylink {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
     font-weight: bold;
   }
   .sitestr {
@@ -958,10 +1014,10 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #002b36 !important;
   }
   #hnmain .comhead {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   #hnmain .c00 {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   #hnmain a.hnuser {
     color: #b58900 !important;
@@ -970,7 +1026,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
     color: #586e75 !important;
   }
   .cdd {
-    color: rgba(255, 54, 43, 0.65) !important;
+    color: rgba(202,0,0,0.65) !important;
   }
   .comment i {
     color: #586e75 !important;
@@ -990,20 +1046,20 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .Cat1HL {
     background-color: #586e75 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .Cat2HL {
-    background-color: #094352 !important;
+    background-color: #e9e1c8 !important;
   }
   .Cat3HL {
-    background-color: #083c4a !important;
+    background-color: #ebe4cf !important;
   }
   .FeatureByline {
     background-color: #073642 !important;
     border: none !important;
   }
   .Headline {
-    background-color: #094352 !important;
+    background-color: #e9e1c8 !important;
   }
   .QuotedText {
     color: #6c71c4 !important;
@@ -1013,7 +1069,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
     border: none !important;
   }
   table.OddEven tr:nth-child(even) {
-    background-color: #00323f !important;
+    background-color: #fcf3da !important;
   }
   table.OddEven tr:nth-child(odd) {
     background-color: #002b36 !important;
@@ -1022,33 +1078,37 @@ Then I added a "section" for google calendars manually to fix some UI issues
     border-color: #073642 !important;
   }
   DIV.CommentBox P.CommentTitle {
-    background-color: #094352 !important;
+    background-color: #e9e1c8 !important;
   }
-  #menu, .topnav-container {
+  #menu,
+  .topnav-container {
     background-color: #073642 !important;
   }
   .navmenu ul {
     background-color: #073642 !important;
   }
   body * {
-    border-color: #094352 !important;
+    border-color: #e9e1c8 !important;
   }
   #content {
     background-color: #002b36 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
-  #mw-head, #mw-panel {
+  #mw-head,
+  #mw-panel {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
-  #mw-head div.portal, #mw-panel div.portal {
+  #mw-head div.portal,
+  #mw-panel div.portal {
     background-image: none !important;
   }
   #mw-head {
     background-color: #073642 !important;
     background-image: linear-gradient(to bottom, #002b36, #073642) !important;
   }
-  #mw-panel, #p-logo {
+  #mw-panel,
+  #p-logo {
     background-image: linear-gradient(to right, #002b36, #073642) !important;
   }
   div.vectorTabs {
@@ -1066,7 +1126,8 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #073642 !important;
     background-image: linear-gradient(to bottom, #002b36, #073642) !important;
   }
-  div.vectorTabs li.selected, div.vectorTabs li.selected span {
+  div.vectorTabs li.selected,
+  div.vectorTabs li.selected span {
     background-color: transparent !important;
     background-image: linear-gradient(to bottom, #073642, #002b36) !important;
   }
@@ -1077,56 +1138,69 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #002b36 !important;
     padding: 0.05em 0px 0.2em 0.2em !important;
   }
-  .ambox, .infobox, #toc, #toctitle, .toclevel-1 {
+  .ambox,
+  .infobox,
+  #toc,
+  #toctitle,
+  .toclevel-1 {
     background-color: #073642 !important;
-    border-color: #094352 !important;
-    color: #93a1a1 !important;
+    border-color: #e9e1c8 !important;
+    color: #586e75 !important;
   }
   .catlinks {
     background-color: #073642 !important;
-    border-color: #094352 !important;
-    color: #93a1a1 !important;
+    border-color: #e9e1c8 !important;
+    color: #586e75 !important;
   }
   .navbox {
     background-color: #073642 !important;
-    border-color: #094352 !important;
-    color: #93a1a1 !important;
+    border-color: #e9e1c8 !important;
+    color: #586e75 !important;
   }
-  .navbox .th, .navbox .navbox-title {
-    background-color: #094352 !important;
+  .navbox .th,
+  .navbox .navbox-title {
+    background-color: #e9e1c8 !important;
   }
-  .navbox-abovebelow, th.navbox-group, .navbox-subgroup, .navbox-title {
-    background-color: #083c4a !important;
+  .navbox-abovebelow,
+  th.navbox-group,
+  .navbox-subgroup,
+  .navbox-title {
+    background-color: #ebe4cf !important;
   }
   .navbox-even {
     background-color: #002b36 !important;
   }
-  h1, h2, h3, h4, h5, h6 {
-    border-color: #094352 !important;
-    color: #93a1a1 !important;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    border-color: #e9e1c8 !important;
+    color: #586e75 !important;
   }
   code {
-    background-color: #094352 !important;
-    border-color: #094352 !important;
-    color: #93a1a1 !important;
+    background-color: #e9e1c8 !important;
+    border-color: #e9e1c8 !important;
+    color: #586e75 !important;
   }
   div.thumbinner {
     background-color: #073642 !important;
-    border-color: #094352 !important;
+    border-color: #e9e1c8 !important;
   }
   img {
     /* filter: opacity(75%); */
   }
   img.thumbimage {
-    border-color: #094352 !important;
+    border-color: #e9e1c8 !important;
   }
   .mw-body .external {
     opacity: 0.5 !important;
   }
   table.wikitable {
     background-color: #002b36 !important;
-    border-color: #094352 !important;
-    color: #839496 !important;
+    border-color: #e9e1c8 !important;
+    color: #657b83 !important;
   }
   table.wikitable > * > tr > th {
     background-color: #073642 !important;
@@ -1147,11 +1221,11 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #073642 !important;
   }
   .post h2 a {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .post div.entry {
     background-color: #002b36 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .post div.entry blockquote {
     background-color: #073642 !important;
@@ -1160,7 +1234,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #073642 !important;
     border-color: #586e75 !important;
     box-shadow: none !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
     text-shadow: 0px 1px 0px #000 !important;
   }
   .post pre.mode-line {
@@ -1170,7 +1244,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #073642 !important;
   }
   #sr-header-area .srdrop .selected {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   #sr-header-area #sr-more-link {
     background-color: #073642 !important;
@@ -1188,10 +1262,10 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #073642 !important;
   }
   .thing .title {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   div.md {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   body.comment {
     background-color: #002b36 !important;
@@ -1210,7 +1284,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .listing-chooser .intro {
     background-color: #586e75 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .listing-chooser .grippy {
     background-color: #002b36 !important;
@@ -1226,17 +1300,17 @@ Then I added a "section" for google calendars manually to fix some UI issues
     box-shadow: none;
   }
   .listing-chooser li a {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .listing-chooser li a .description {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .titlebox {
     background-color: #073642 !important;
   }
   .titlebox form.toggle {
     background-color: #073642 !important;
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .side .usertext-body .md {
     background-color: #073642 !important;
@@ -1246,7 +1320,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .sidebox .spacer {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .tabmenu li a {
     background-color: #073642 !important;
@@ -1258,10 +1332,11 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #073642 !important;
   }
   hr {
-    background-color: #094352 !important;
-    color: #094352 !important;
+    background-color: #e9e1c8 !important;
+    color: #e9e1c8 !important;
   }
-  .bounty-indicator, .bounty-indicator-tab {
+  .bounty-indicator,
+  .bounty-indicator-tab {
     background-color: #6c71c4 !important;
   }
   .bottom-notice {
@@ -1272,7 +1347,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   .page-numbers {
     background-color: #859900 !important;
-    color: #eee8d5 !important;
+    color: #073642 !important;
   }
   .page-numbers.current {
     background-color: #cb4b16 !important;
@@ -1286,7 +1361,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   pre code {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   pre code .atn {
     color: #268bd2 !important;
@@ -1303,8 +1378,9 @@ Then I added a "section" for google calendars manually to fix some UI issues
   pre code .lit {
     color: #d33682 !important;
   }
-  pre code .pln, pre code .pun {
-    color: #839496 !important;
+  pre code .pln,
+  pre code .pun {
+    color: #657b83 !important;
   }
   pre code .str {
     color: #2aa198 !important;
@@ -1316,25 +1392,25 @@ Then I added a "section" for google calendars manually to fix some UI issues
     color: #b58900 !important;
   }
   #footer {
-    background-color: #083c4a !important;
-    color: #839496 !important;
+    background-color: #ebe4cf !important;
+    color: #657b83 !important;
   }
   #footer #footer-sites th {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .top-footer-links a {
     color: #859900 !important;
   }
   .so-header {
-    background-color: #094352 !important;
-    color: #93a1a1 !important;
+    background-color: #e9e1c8 !important;
+    color: #586e75 !important;
   }
   .so-header a {
     color: #859900 !important;
   }
-  .so-header .navigation .-list .-item:hover {
+  .so-header .navigation .-list .-item :hover {
     background-color: #859900 !important;
-    color: #fdf6e3 !important;
+    color: #002b36 !important;
   }
   .topbar-dialog {
     background-color: #002b36 !important;
@@ -1347,16 +1423,16 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #073642 !important;
   }
   .topbar-dialog .header a {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .topbar-dialog .site-link {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   #header {
-    background-color: #094352 !important;
+    background-color: #e9e1c8 !important;
   }
   #question-header .question-hyperlink {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   #hlogo a {
     filter: opacity(75%);
@@ -1365,64 +1441,64 @@ Then I added a "section" for google calendars manually to fix some UI issues
     background-color: #073642 !important;
   }
   .tagged-interesting {
-    background-color: #094352 !important;
+    background-color: #e9e1c8 !important;
   }
   div.answered-accepted {
     background-color: #859900 !important;
-    color: #eee8d5 !important;
+    color: #073642 !important;
   }
   div.answered-accepted .mini-counts {
     background-color: #859900 !important;
-    color: #eee8d5 !important;
+    color: #073642 !important;
   }
   .answered .mini-counts span {
     color: #859900 !important;
   }
   .unanswered .mini-counts span {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   #hot-network-questions a {
     color: #2aa198 !important;
   }
   #hot-network-questions h4 a.js-gps-track {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   #sidebar .community-bulletin .bulletin-item-content a {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   #sidebar .module.community-bulletin {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   #sidebar .question-hyperlink {
     color: #2aa198 !important;
   }
   .newuser {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .label-key {
-    color: #839496 !important;
+    color: #657b83 !important;
   }
   .label-key b {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   #h-chat-link {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .ad502-room {
     background-color: #073642 !important;
     box-shadow: #586e75 0px 1px 3px;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   #tabs a {
     background-color: transparent !important;
     background-image: linear-gradient(to bottom, #002b36, #073642);
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   #tabs a.youarehere {
     background-image: linear-gradient(to bottom, #cb4b16, #002b36);
-    color: #fdf6e3 !important;
+    color: #002b36 !important;
   }
   .post-tag {
     background-color: #586e75 !important;
@@ -1433,11 +1509,11 @@ Then I added a "section" for google calendars manually to fix some UI issues
   }
   a.comment-user.owner {
     background-color: #859900 !important;
-    color: #eee8d5 !important;
+    color: #073642 !important;
   }
   .post-signature {
     background-color: #073642 !important;
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .post-signature a {
     color: #2aa198 !important;
@@ -1446,7 +1522,7 @@ Then I added a "section" for google calendars manually to fix some UI issues
     color: #859900 !important;
   }
   .post-signature span.relativetime {
-    color: #93a1a1 !important;
+    color: #586e75 !important;
   }
   .vote {
     background-color: #073642 !important;
@@ -1457,7 +1533,8 @@ Then I added a "section" for google calendars manually to fix some UI issues
   .vote .star-on {
     filter: opacity(50%) !important;
   }
-  .vote .vote-down-off, .vote .vote-up-off {
+  .vote .vote-down-off,
+  .vote .vote-up-off {
     filter: opacity(50%);
   }
   .answer-votes {
@@ -1467,28 +1544,54 @@ Then I added a "section" for google calendars manually to fix some UI issues
 }
 
 @-moz-document domain("calendar.google.com") {
-  #vr-nav, #mainnav, .mainnav, .mv-container, .mv-event-container, .dpdiv, .mv-daynames-table {
-    background-color: #002b36 !important;
-    background: #002b36 !important;
-    color: #93a1a1 !important;
-  }
-  .st-dtitle {
-    background-color: #073642 !important;
-    color: #93a1a1 !important;
-  }
-  .calHeader {
-    background-color: #073642 !important;
-    color: #93a1a1 !important;
-  }
-  .chromeColor, .calList {
-    background-color: #073642 !important;
-    background: #073642 !important;
-    color: #93a1a1 !important;
-  }
-  .st-dtitle-today {
-    background-color: #073642 !important;
-    background: #073642 !important;
+#vr-nav,
+#mainnav,
+.mainnav,
+.mv-container,
+.mv-event-container,
+.dpdiv,
+.mv-daynames-table {
+background-color: #002b36 !important;
+background: #002b36 !important;
+}
 
-    color: #93a1a1 !important;
-  }
+.st-dtitle {
+background-color: #073642 !important;
+}
+.calHeader{
+background-color: #073642 !important;
+}
+
+.chromeColor, .calList {
+background-color: #002b36 !important;
+background: #002b36 !important;
+}
+.st-dtitle-today{
+background-color: #268bd2 !important;
+background: #268bd2 !important;
+}
+}
+
+@-moz-document domain("twitter.com") {
+html, body {
+  background-color: #073642 !important;
+}
+.stream-item:not(.no-header-background-module) {
+background-color: #002b36 !important;
+background: #002b36 !important;
+}
+
+.Trends {
+background-color: #073642 !important;
+background: #073642 !important;
+}
+.DashboardProfileCard {
+background-color: #073642 !important;
+background: #073642 !important;
+}
+
+.ProfileCard, .module .flex-module{
+background-color: #073642 !important;
+background: #073642 !important;
+}
 }

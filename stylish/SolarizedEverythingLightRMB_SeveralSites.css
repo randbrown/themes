@@ -6,7 +6,7 @@ And then I applied ot to a list of known domains.
 Then I added a "section" for google calendars manually to fix some UI issues
 */
 
-@-moz-document domain("google.com"), domain("github.com"), domain("gitlab.com"), domain("wikipedia.org"), domain("stackoverflow.com"), domain("reddit.com"), domain("steelguitarforum.com"), domain("chiefdelphi.com"), domain("f150forum.com"), domain("craigslist.org") {
+@-moz-document url-prefix("chrome-extension:"), domain("google.com"), domain("github.com"), domain("wikipedia.org"), domain("stackoverflow.com"), domain("reddit.com"), domain("chiefdelphi.com"), domain("f150forum.com"), domain("craigslist.org"), domain("serverfault.com"), domain("twitter.com") {
   * {
     border-color: #839496 !important;
   }
@@ -1574,6 +1574,9 @@ background: #268bd2 !important;
 }
 
 @-moz-document domain("twitter.com") {
+html, body {
+  background-color: #eee8d5 !important;
+}
 .stream-item:not(.no-header-background-module) {
 background-color: #fdf6e3 !important;
 background: #fdf6e3 !important;
