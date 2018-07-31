@@ -2237,7 +2237,7 @@
       </Color>
       <Color Name="CSS String Value">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFC3622C" />
+        <Foreground Type="CT_RAW" Source="FFCE9178" />
       </Color>
       <Color Name="HTML Attribute">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -2557,7 +2557,7 @@
       </Color>
       <Color Name="JSON Property Name">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFD7BA7D" />
+        <Foreground Type="CT_RAW" Source="FF9CDCFE" />
       </Color>
       <Color Name="Knockout Region">
         <Background Type="CT_RAW" Source="FF4B4B4B" />
@@ -3860,7 +3860,7 @@
         <Foreground Type="CT_RAW" Source="FFD0D000" />
       </Color>
       <Color Name="ScriptString">
-        <Foreground Type="CT_RAW" Source="FFFFA000" />
+        <Foreground Type="CT_RAW" Source="FFCE9178" />
       </Color>
       <Color Name="ScriptNumber">
         <Foreground Type="CT_RAW" Source="FFB5CEA8" />
@@ -8859,7 +8859,7 @@
       </Color>
       <Color Name="String">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFCE8248" />
+        <Foreground Type="CT_RAW" Source="FFCE9178" />
       </Color>
       <Color Name="Number">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8911,11 +8911,11 @@
       </Color>
       <Color Name="SQL Operator">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF818181" />
+        <Foreground Type="CT_RAW" Source="FF4EC9B0" />
       </Color>
       <Color Name="SQL String">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFCB4141" />
+        <Foreground Type="CT_RAW" Source="FFCE9178" />
       </Color>
       <Color Name="SQLCMD Command">
         <Background Type="CT_RAW" Source="FF484848" />
