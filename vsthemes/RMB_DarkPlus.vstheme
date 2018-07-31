@@ -3149,7 +3149,7 @@
       </Color>
       <Color Name="s.semantic-colorizer.field">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF9CDCFE" />
       </Color>
       <Color Name="s.semantic-colorizer.enum-field">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -3185,7 +3185,7 @@
       </Color>
       <Color Name="s.semantic-colorizer.namespace">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF4EC9B0" />
       </Color>
       <Color Name="s.semantic-colorizer.property">
         <Background Type="CT_INVALID" Source="00000000" />
