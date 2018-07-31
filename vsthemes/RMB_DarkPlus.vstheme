@@ -5744,7 +5744,7 @@
         <Background Type="CT_RAW" Source="FF2D2D30" />
       </Color>
       <Color Name="ToolWindowTabText">
-        <Background Type="CT_RAW" Source="FFD0D0D0" />
+        <Background Type="CT_RAW" Source="FFADADAD" />
       </Color>
       <Color Name="ToolWindowTabSelectedText">
         <Background Type="CT_RAW" Source="FF4A88A4" />
@@ -6256,7 +6256,7 @@
         <Background Type="CT_RAW" Source="FF007ACC" />
       </Color>
       <Color Name="StatusBarDefault">
-        <Background Type="CT_RAW" Source="FF007ACC" />
+        <Background Type="CT_RAW" Source="FF005792" />
         <Foreground Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="MainWindowActiveNoSolutionBorder">
