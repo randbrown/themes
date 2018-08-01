@@ -1337,7 +1337,7 @@
       </Color>
       <Color Name="PowerShell Comment">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF98FB98" />
+        <Foreground Type="CT_RAW" Source="FF6A9955" />
       </Color>
       <Color Name="PowerShell Command">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -2221,7 +2221,7 @@
       </Color>
       <Color Name="CSS Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF4B8B4E" />
+        <Foreground Type="CT_RAW" Source="FF6A9955" />
       </Color>
       <Color Name="CSS Selector">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -2249,7 +2249,7 @@
       </Color>
       <Color Name="HTML Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF4B8B4E" />
+        <Foreground Type="CT_RAW" Source="FF6A9955" />
       </Color>
       <Color Name="HTML Element Name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -2449,7 +2449,7 @@
       </Color>
       <Color Name="xml doc comment - comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF608B4E" />
+        <Foreground Type="CT_RAW" Source="FF6A9955" />
       </Color>
       <Color Name="xml doc comment - delimiter">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8979,7 +8979,7 @@
       </Color>
       <Color Name="Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF4B8B4E" />
+        <Foreground Type="CT_RAW" Source="FF6A9955" />
       </Color>
       <Color Name="Identifier">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -8999,7 +8999,7 @@
       </Color>
       <Color Name="XML Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF4B8B4E" />
+        <Foreground Type="CT_RAW" Source="FF6A9955" />
       </Color>
       <Color Name="Memory Changed">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -9067,7 +9067,7 @@
       </Color>
       <Color Name="XAML Comment">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF4B8B4E" />
+        <Foreground Type="CT_RAW" Source="FF6A9955" />
       </Color>
       <Color Name="XAML Name">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
