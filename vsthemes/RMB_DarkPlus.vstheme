@@ -3069,7 +3069,7 @@
       </Color>
       <Color Name="ReSharper Debugger DataTip">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FFDCDCDC" />
+        <Foreground Type="CT_RAW" Source="FFFF00FF" />
       </Color>
       <Color Name="U-SQL - ClassName">
         <Background Type="CT_INVALID" Source="00000000" />
