@@ -6731,11 +6731,11 @@
         <Foreground Type="CT_RAW" Source="FF999999" />
       </Color>
       <Color Name="Even Row Items">
-        <Background Type="CT_RAW" Source="FFE6E6E6" />
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Odd Row Items">
-        <Background Type="CT_RAW" Source="FFE6E6E6" />
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
