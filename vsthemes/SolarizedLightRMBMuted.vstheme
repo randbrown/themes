@@ -1481,7 +1481,7 @@
       </Color>
       <Color Name="string - verbatim">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF2AA198" />
+        <Foreground Type="CT_RAW" Source="FF8B4513" />
       </Color>
       <Color Name="Operator">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -2801,7 +2801,7 @@
       </Color>
       <Color Name="Literal">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF8B4513" />
       </Color>
       <Color Name="Markup Attribute">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -2993,7 +2993,7 @@
       </Color>
       <Color Name="CppGenericTypeSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF859900" />
       </Color>
       <Color Name="CppFunctionTemplateSemanticTokenFormat">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -3137,7 +3137,7 @@
       </Color>
       <Color Name="s.semantic-colorizer.field">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF2480C1" />
       </Color>
       <Color Name="s.semantic-colorizer.enum-field">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -3165,11 +3165,11 @@
       </Color>
       <Color Name="s.semantic-colorizer.type-parameter">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF859900" />
       </Color>
       <Color Name="s.semantic-colorizer.parameter">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8B4513" />
+        <Foreground Type="CT_RAW" Source="FF2480C1" />
       </Color>
       <Color Name="s.semantic-colorizer.namespace">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -3177,11 +3177,11 @@
       </Color>
       <Color Name="s.semantic-colorizer.property">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF2480C1" />
       </Color>
       <Color Name="s.semantic-colorizer.local">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF8B4513" />
+        <Foreground Type="CT_RAW" Source="FF2480C1" />
       </Color>
       <Color Name="s.semantic-colorizer.type-special">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -3189,7 +3189,7 @@
       </Color>
       <Color Name="s.semantic-colorizer.class">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF859900" />
       </Color>
       <Color Name="s.semantic-colorizer.interface">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -10364,7 +10364,7 @@
     <Category Name="Text Editor Language Service Items" GUID="{e0187991-b458-4f7e-8ca9-42c9a573b56c}">
       <Color Name="Keyword">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF719A07" />
+        <Foreground Type="CT_RAW" Source="FF0013ED" />
       </Color>
       <Color Name="Comment">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -10376,7 +10376,7 @@
       </Color>
       <Color Name="String">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF2AA198" />
+        <Foreground Type="CT_RAW" Source="FF8B4513" />
       </Color>
       <Color Name="Number">
         <Background Type="CT_INVALID" Source="00000000" />
