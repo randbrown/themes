@@ -1345,11 +1345,11 @@
       </Color>
       <Color Name="outlining.verticalrule">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF002B36" />
+        <Foreground Type="CT_RAW" Source="FFD5CEB7" />
       </Color>
       <Color Name="outlining.square">
         <Background Type="CT_RAW" Source="FFEFE9D7" />
-        <Foreground Type="CT_RAW" Source="FF002B36" />
+        <Foreground Type="CT_RAW" Source="FFD5CEB7" />
       </Color>
       <Color Name="OverviewMarginBackground">
         <Background Type="CT_RAW" Source="FFDCD4BB" />
