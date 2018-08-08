@@ -1321,7 +1321,7 @@
       </Color>
       <Color Name="CurrentLineActiveFormat">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF073642" />
+        <Foreground Type="CT_RAW" Source="FFEAEAF2" />
       </Color>
       <Color Name="deltadiff.remove.line">
         <Background Type="CT_RAW" Source="FF2D0000" />
@@ -1881,7 +1881,7 @@
       </Color>
       <Color Name="ReSharper Code Analysis Warning Marker on Error Stripe">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFAE8B00" />
       </Color>
       <Color Name="ReSharper Code Analysis Suggestion Marker on Error Stripe">
         <Background Type="CT_INVALID" Source="00000000" />
