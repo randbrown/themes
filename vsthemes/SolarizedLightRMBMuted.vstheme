@@ -10380,7 +10380,7 @@
       </Color>
       <Color Name="Number">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF2AA198" />
+        <Foreground Type="CT_RAW" Source="FF8B4513" />
       </Color>
       <Color Name="XML CData Section">
         <Background Type="CT_RAW" Source="FFEEE8D5" />
@@ -10549,7 +10549,7 @@
     </Category>
     <Category Name="Text Editor Text Manager Items" GUID="{58e96763-1d3b-4e05-b6ba-ff7115fd0b7b}">
       <Color Name="Plain Text">
-        <Background Type="CT_RAW" Source="FFEFE9D7" />
+        <Background Type="CT_RAW" Source="FFFDF6E3" />
         <Foreground Type="CT_RAW" Source="FF002B36" />
       </Color>
       <Color Name="Selected Text">
