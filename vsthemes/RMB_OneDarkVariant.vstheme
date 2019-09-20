@@ -1607,7 +1607,7 @@
       </Color>
       <Color Name="Line Number">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF81D4FA" />
+        <Foreground Type="CT_RAW" Source="FF5F9AB6" />
       </Color>
       <Color Name="XML Doc Comment">
         <Background Type="CT_INVALID" Source="00000000" />
