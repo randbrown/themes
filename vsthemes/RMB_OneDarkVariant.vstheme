@@ -2018,7 +2018,7 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper Matched Brace">
-        <Background Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="FFC60606" />
         <Foreground Type="CT_RAW" Source="FF0650CC" />
       </Color>
       <Color Name="ReSharper Unmatched Brace">
@@ -9058,7 +9058,7 @@
       </Color>
       <Color Name="Brace Matching (Highlight)">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FFF1EAE9" />
       </Color>
       <Color Name="Logpoint - Advanced (Enabled)">
         <Background Type="CT_INVALID" Source="00000000" />
