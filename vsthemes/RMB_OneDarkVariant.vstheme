@@ -4957,7 +4957,7 @@
         <Background Type="CT_RAW" Source="FF3A4456" />
       </Color>
       <Color Name="ToolWindowTabMouseOverText">
-        <Background Type="CT_RAW" Source="FFC5CAE9" />
+        <Background Type="CT_RAW" Source="FFB5B5B5" />
       </Color>
       <Color Name="VizSurfaceBrownDark">
         <Background Type="CT_RAW" Source="FF705829" />
@@ -5539,7 +5539,7 @@
         <Background Type="CT_RAW" Source="FF3A4456" />
       </Color>
       <Color Name="ToolWindowText">
-        <Background Type="CT_RAW" Source="FFF1F1F1" />
+        <Background Type="CT_RAW" Source="FFE0E3E6" />
       </Color>
       <Color Name="ToolWindowTabSelectedTab">
         <Background Type="CT_RAW" Source="FF282E38" />
@@ -5554,10 +5554,10 @@
         <Background Type="CT_RAW" Source="FF282E38" />
       </Color>
       <Color Name="ToolWindowTabText">
-        <Background Type="CT_RAW" Source="FFC6D5FF" />
+        <Background Type="CT_RAW" Source="FFB5B5B5" />
       </Color>
       <Color Name="ToolWindowTabSelectedText">
-        <Background Type="CT_RAW" Source="FF5C6BC0" />
+        <Background Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
       <Color Name="WizardOrientationPanelBackground">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
@@ -5900,7 +5900,7 @@
         <Background Type="CT_RAW" Source="FF3F51B5" />
       </Color>
       <Color Name="ToolWindowTabSelectedActiveText">
-        <Background Type="CT_RAW" Source="FF5C6BC0" />
+        <Background Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
       <Color Name="CommandBarTextMouseDown">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
@@ -6315,7 +6315,7 @@
         <Background Type="CT_RAW" Source="FF282E38" />
       </Color>
       <Color Name="ToolWindowTabSelectedBorder">
-        <Background Type="CT_RAW" Source="FF3A4456" />
+        <Background Type="CT_RAW" Source="FF7986CB" />
       </Color>
       <Color Name="ToolWindowContentGrid">
         <Background Type="CT_RAW" Source="FF282E38" />
