@@ -1607,7 +1607,7 @@
       </Color>
       <Color Name="Line Number">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF5F9AB6" />
+        <Foreground Type="CT_RAW" Source="FF558297" />
       </Color>
       <Color Name="XML Doc Comment">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -4653,10 +4653,10 @@
         <Background Type="CT_RAW" Source="FFD0E6F5" />
       </Color>
       <Color Name="FileTabSelectedGradientMiddle1">
-        <Background Type="CT_RAW" Source="FFBB354A" />
+        <Background Type="CT_RAW" Source="FF782331" />
       </Color>
       <Color Name="FileTabSelectedGradientMiddle2">
-        <Background Type="CT_RAW" Source="FFBB354A" />
+        <Background Type="CT_RAW" Source="FF782331" />
       </Color>
       <Color Name="NewProjectBackground">
         <Background Type="CT_RAW" Source="FF282E38" />
@@ -5092,7 +5092,7 @@
         <Background Type="CT_RAW" Source="FF2D2D30" />
       </Color>
       <Color Name="CommandBarTextActive">
-        <Background Type="CT_RAW" Source="FFF1F1F1" />
+        <Background Type="CT_RAW" Source="FFB5B5B5" />
       </Color>
       <Color Name="CommandBarTextHover">
         <Background Type="CT_RAW" Source="FFF1F1F1" />
@@ -5212,13 +5212,13 @@
         <Background Type="CT_RAW" Source="FF3F51B5" />
       </Color>
       <Color Name="FileTabSelectedBorder">
-        <Background Type="CT_RAW" Source="FFBB354A" />
+        <Background Type="CT_RAW" Source="FF782331" />
       </Color>
       <Color Name="FileTabSelectedText">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="FileTabText">
-        <Background Type="CT_RAW" Source="FFF1F1F1" />
+        <Background Type="CT_RAW" Source="FFAEAEAE" />
       </Color>
       <Color Name="FormSmartTagActionTagBorder">
         <Background Type="CT_RAW" Source="FF000000" />
@@ -5569,10 +5569,10 @@
         <Background Type="CT_RAW" Source="FF434346" />
       </Color>
       <Color Name="FileTabSelectedGradientTop">
-        <Background Type="CT_RAW" Source="FFBB354A" />
+        <Background Type="CT_RAW" Source="FF782331" />
       </Color>
       <Color Name="FileTabSelectedGradientBottom">
-        <Background Type="CT_RAW" Source="FFBB354A" />
+        <Background Type="CT_RAW" Source="FF782331" />
       </Color>
       <Color Name="FileTabHotGradientTop">
         <Background Type="CT_RAW" Source="FF3B2A2E" />
@@ -5584,7 +5584,7 @@
         <Background Type="CT_RAW" Source="FF3F51B5" />
       </Color>
       <Color Name="FileTabDocumentBorderBackground">
-        <Background Type="CT_RAW" Source="FFBB354A" />
+        <Background Type="CT_RAW" Source="FF782331" />
       </Color>
       <Color Name="FileTabDocumentBorderHighlight">
         <Background Type="CT_RAW" Source="FF3F51B5" />
@@ -6133,13 +6133,13 @@
         <Background Type="CT_RAW" Source="66FFFFFF" />
       </Color>
       <Color Name="MainWindowActiveIconDefault">
-        <Background Type="CT_RAW" Source="FFFFFFFF" />
+        <Background Type="CT_RAW" Source="FF9F9C9C" />
       </Color>
       <Color Name="MainWindowActiveIconBuilding">
-        <Background Type="CT_RAW" Source="FFFFFFFF" />
+        <Background Type="CT_RAW" Source="FF9F9C9C" />
       </Color>
       <Color Name="MainWindowActiveIconDebugging">
-        <Background Type="CT_RAW" Source="FFFFFFFF" />
+        <Background Type="CT_RAW" Source="FF9F9C9C" />
       </Color>
       <Color Name="MainWindowActiveIconNoSolution">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
