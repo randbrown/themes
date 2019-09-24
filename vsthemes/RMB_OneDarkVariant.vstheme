@@ -6391,10 +6391,10 @@
         <Background Type="CT_RAW" Source="FF252526" />
       </Color>
       <Color Name="MainWindowSolutionNameActiveText">
-        <Background Type="CT_RAW" Source="FFF1F1F1" />
+        <Background Type="CT_RAW" Source="FFB5B5B5" />
       </Color>
       <Color Name="MainWindowSolutionNameInactiveText">
-        <Background Type="CT_RAW" Source="FFF1F1F1" />
+        <Background Type="CT_RAW" Source="FFB5B5B5" />
       </Color>
     </Category>
     <Category Name="Find" GUID="{4370282e-987e-4ac4-ad14-5ffed2ad1e14}">
