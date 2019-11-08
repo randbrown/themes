@@ -1342,7 +1342,7 @@
         <Foreground Type="CT_RAW" Source="FF333333" />
       </Color>
       <Color Name="OverviewMarginCollapsedRegion">
-        <Background Type="CT_RAW" Source="FFDCDCDC" />
+        <Background Type="CT_RAW" Source="FF3D3D3D" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="OverviewMarginBackground">
