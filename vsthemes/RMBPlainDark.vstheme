@@ -1617,34 +1617,6 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFEF0101" />
       </Color>
-      <Color Name="ReSharper Output Build Report Succeeded">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="ReSharper Output Build Report With Warnings">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="ReSharper Output Build Report Failed">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="ReSharper Output Event Warnings">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="ReSharper Output Event Errors">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="ReSharper Output Nuget Restorer">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="ReSharper Output Console">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
       <Color Name="TextMate.Classifier">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
@@ -1849,18 +1821,6 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
-      <Color Name="ReSharper Text to Delete in EditorConfig">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="ReSharper Text to Insert in EditorConfig">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="ReSharper EditorConfig Conflict Warning">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
       <Color Name="ReSharper Missing Construct Hint">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
@@ -1902,8 +1862,8 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper Navigation Highlight">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="FF004F80" />
+        <Foreground Type="CT_RAW" Source="FF900385" />
       </Color>
       <Color Name="ReSharper Navigation Highlight Marker on Error Stripe">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -1977,14 +1937,6 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
-      <Color Name="ReSharper Local Function Identifier">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="ReSharper Tuple Component Name">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
       <Color Name="ReSharper Parameter Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
@@ -1997,19 +1949,11 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
-      <Color Name="ReSharper Extension Method Identifier">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
       <Color Name="ReSharper Operator Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper Namespace Identifier">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="ReSharper Late Bound Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
@@ -2282,10 +2226,6 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper Class Identifier">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="ReSharper Static Class Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
@@ -2798,7 +2738,7 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="BraceCompletionClosingBrace">
-        <Background Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="FF498CA1" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Line Number">
@@ -2966,6 +2906,210 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper Debugger DataTip">
+        <Background Type="CT_RAW" Source="FF063C0A" />
+        <Foreground Type="CT_RAW" Source="FFE6E29C" />
+      </Color>
+      <Color Name="MarkerFormatDefinition/ScrollBarComment">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="MarkerFormatDefinition/FilteredScrollBarComment">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="MarkerFormatDefinition/CommentMark">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="MarkerFormatDefinition/CommentHighlight">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper Text to Delete in Config File">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper Text to Insert in Config File">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper Config File Conflict Warning">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper Default Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper Static Field Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper Function Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper Static Method Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper Regex Invalid Character">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper Regex Escape Character 1">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper Regex Escape Character 2">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper CSS identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper CSS pseudo selector">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper CSS function">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper CSS attribute name">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper CSS property name">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper JavaScript Template">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper JavaScript Regex Border">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper IL Method Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper IL Parameter Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Escape Character 1">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Escape Character 2">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Constant Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Event Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Field Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Static Field Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Property Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Static Property Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Local Variable Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Local Function Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Tuple Component Name">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Parameter Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Mutable Local Variable Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Method Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Accessor Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Static Method Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Extension Method Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Overloaded Operator">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Namespace Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Late Bound Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Class Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Static Class Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Struct Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Enum Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Interface Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Delegate Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Type Parameter Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="ReSharper C# Overflow Checked Operation">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
