@@ -2906,7 +2906,7 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper Debugger DataTip">
-        <Background Type="CT_RAW" Source="FF063C0A" />
+        <Background Type="CT_RAW" Source="FF4F6051" />
         <Foreground Type="CT_RAW" Source="FFE6E29C" />
       </Color>
       <Color Name="MarkerFormatDefinition/ScrollBarComment">
@@ -6249,6 +6249,7 @@
         <Background Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="VSBrandingText">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
         <Foreground Type="CT_RAW" Source="FFFFFFFF" />
       </Color>
       <Color Name="PreviewTagBackground">
@@ -6291,6 +6292,47 @@
         <Background Type="CT_RAW" Source="FF252526" />
       </Color>
       <Color Name="MainWindowSolutionNameInactiveBackground">
+        <Background Type="CT_RAW" Source="FF252526" />
+      </Color>
+      <Color Name="FileTabPrimarySeparator">
+        <Background Type="CT_RAW" Source="FF717171" />
+      </Color>
+      <Color Name="FileTabSecondarySeparator">
+        <Background Type="CT_RAW" Source="FF3F3F46" />
+      </Color>
+      <Color Name="FileTabIndicatorTextSelectedActive">
+        <Background Type="CT_RAW" Source="FF007ACC" />
+      </Color>
+      <Color Name="FileTabIndicatorTextSelectedInactive">
+        <Background Type="CT_RAW" Source="FF3F3F46" />
+      </Color>
+      <Color Name="FileTabScrollBarThumb">
+        <Background Type="CT_RAW" Source="FF686868" />
+      </Color>
+      <Color Name="FileTabScrollBarArrowGlyph">
+        <Background Type="CT_RAW" Source="FF686868" />
+      </Color>
+      <Color Name="FileTabScrollBarThumbHover">
+        <Background Type="CT_RAW" Source="FF2D2D30" />
+      </Color>
+      <Color Name="FileTabScrollBarArrowGlyphHover">
+        <Background Type="CT_RAW" Source="FF2D2D30" />
+      </Color>
+      <Color Name="FileTabScrollBarThumbPressed">
+        <Background Type="CT_RAW" Source="FFEFEBEF" />
+      </Color>
+      <Color Name="FileTabScrollBarArrowGlyphPressed">
+        <Background Type="CT_RAW" Source="FFEFEBEF" />
+      </Color>
+      <Color Name="MainWindowCloudEnvironmentActive">
+        <Background Type="CT_RAW" Source="FFFEFCC8" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+      <Color Name="MainWindowCloudEnvironmentInactive">
+        <Background Type="CT_RAW" Source="FFFEFCC8" />
+        <Foreground Type="CT_RAW" Source="99999999" />
+      </Color>
+      <Color Name="Halo">
         <Background Type="CT_RAW" Source="FF252526" />
       </Color>
     </Category>
